@@ -10,7 +10,7 @@
         <td>Referencia Nombre de Articulo</td>
       </tr>
       {
-        for $articulo in doc("neptuno.xml")//articulos
+        for $articulo in doc("prueba.xml")//articulos
         return 
           <tr>
             <td>{data($articulo/RefArticulo)}</td>
@@ -18,7 +18,6 @@
             <td>{data($articulo/NombreArticulo)}</td>
           </tr>
       }
-      
     </table>
   </body>
 </html>
