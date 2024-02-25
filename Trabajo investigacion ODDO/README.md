@@ -130,3 +130,63 @@
 
 - Personalización de informes para adaptarse a las necesidades específicas de la empresa.
 
+# Modulos de sitio web
+
+*El módulo de sitio web en Odoo ofrece una variedad de herramientas para crear y gestionar sitios web empresariales de manera efectiva. Aquí están los principales componentes de este módulo:*
+
+**Constructor de paginas**
+
+- Herramienta intuitiva de arrastrar y soltar para diseñar y personalizar páginas web.
+
+- Amplia variedad de bloques y elementos predefinidos para facilitar la creación de contenido.
+
+- Control total sobre el diseño, la estructura y el estilo del sitio web.
+
+**Gestion de contenido**
+
+- Creación, edición y publicación de contenido web, como páginas, blogs y noticias.
+
+- Organización de contenido en categorías y etiquetas para una fácil navegación.
+
+- Programación de publicaciones y gestión de versiones de contenido.
+
+**Tienda en linea**
+
+- Funcionalidad de comercio electrónico completa para vender productos y servicios en línea.
+
+- Gestión de catálogos de productos con imágenes, descripciones y atributos.
+
+- Procesamiento de pedidos, pagos en línea y gestión de inventario integrados.
+
+**Carrito de compras**
+
+- Carrito de compras integrado para que los clientes agreguen productos y realicen pedidos fácilmente.
+
+- Cálculo automático de impuestos, gastos de envío y descuentos.
+
+- Opciones de pago seguro y procesamiento de pagos en línea.
+
+**Integracion con otros modulos**
+
+- Integración con módulos relacionados, como ventas, inventario y CRM.
+
+- Sincronización automática de datos entre el sitio web y el sistema de gestión empresarial.
+
+- Acceso a información en tiempo real sobre productos, precios y disponibilidad.
+
+**SEO (Optimizacion para motores de busqueda)**
+
+- Herramientas de SEO integradas para optimizar el sitio web y mejorar su visibilidad en los motores de búsqueda.
+
+- Opciones para personalizar metaetiquetas, URL amigables y etiquetas alt para imágenes.
+
+- Generación automática de sitemap XML para facilitar la indexación por parte de los motores de búsqueda.
+
+**Analisis y seguimiento**
+
+- Integración con herramientas de análisis web, como Google Analytics, para rastrear el rendimiento del sitio.
+
+- Informes detallados sobre tráfico, conversiones, comportamiento del usuario y más.
+
+- Datos que ayudan a tomar decisiones informadas para mejorar la experiencia del usuario y aumentar las conversiones.
+
