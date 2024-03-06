@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Frames</title>
+</head>
+<body>
+    <frameset rows="20%, 10%">
+        <frame src="marco01.html" name="m1" scrolling="no" frameborder="2">
+        <frame src="marco02.html" name="m2" scrolling="no" frameborder="2">
+            <frameset cols="80%,20%">
+                <frame src="marco03.html" name="m3" scrolling="no" frameborder="2">
+                <frame src="www.gobiernodecanarias.org/educacion" name="m4" scrolling="yes" frameborder="2">
+            </frameset>
+        <noframes>
+            <p>Su navegador no soporta mas marcos</p>
+        </noframes>
+    </frameset>
+</body>
+</html>
