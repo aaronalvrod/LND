@@ -8,6 +8,8 @@
 <body>
     <div align="center">
         <form>
+
+            <!-- Input para introducir datos tipo texto -->
             <label for="fname">NOMBRE</label>
             <br>
             <input type="text" id="fname" name="fname" size="20" maxlength="20">
@@ -98,8 +100,21 @@
             <!-- Input para seleccionar dia de la semana y numero de la semana -->
             <input type="week" name="week">
             <br>
-            
+            <br>
+
+            <!-- La etiqueta fieldset se usa para agrupar inputs -->
+            <fieldset>
+                <legend align="center">Información personal</legend>
+                <p>Nombre: <input type="text" name="nombre"></p>
+                <p>Dirección: <input type="text" name="direccion"></p>
+                <p>Teléfono: <input type="tel" name="telefono"></p>
+            </fieldset>
+
+            <!-- La etiqueta textarea se usa para anotaciones tipo comentariosu observaciones -->
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
         </form>
+
     </div>
 </body>
 </html>
