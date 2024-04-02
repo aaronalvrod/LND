@@ -1,0 +1,11 @@
+nav {
+    display: block;
+    float: left;
+}
+
+main {
+    height: 100%;
+    width: 150px;
+    float: right;
+}
+
