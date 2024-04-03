@@ -1,11 +1,15 @@
+header h2 {
+    text-align: center;
+}
+
 nav {
-    display: block;
+    width: 30%;
+    float: left;
+    height: 600px
+}
+
+main iframe {
+    width: 69%;
+    height: 800px;
     float: left;
 }
-
-main {
-    height: 100%;
-    width: 150px;
-    float: right;
-}
-
