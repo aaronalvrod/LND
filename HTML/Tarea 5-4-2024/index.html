@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5/4/2024</title>
+</head>
+<body>
+    <h3>Aaron Alvarez Rodriguez</h3>
+    <fieldset>
+        <legend>Datos del propietario</legend>
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Sexo:
+        <input type="radio" name="sexo" value="Hombre" checked>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="Mujer">Mujer</label>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Datos del vehiculo</legend>
+        <p>Marca/modelo: <input type="text" name="marca/modelo"></p>
+        <p>Matricula: <input type="text" name="matricula"></p>
+        <p>Caracteristicas:
+            <select name="catacteristicas" size="3" multiple>
+                <option value="utilitario" selected>Utilitario</option>
+                <option value="todoterreno">Todo Terreno</option>
+                <option value="altagama" selected>Alta Gama</option>
+            </select>
+        </p>
+        <p>Otros datos:</p>
+        <input type="checkbox" value="servofreno" checked>
+        <label for="servofreno">Servofreno</label>
+        <input type="checkbox" value="elevalunas" checked>
+        <label for="elevalunas">Elevalunas</label>
+        <input type="checkbox" value="Remolque">
+        <label for="remolque">Remolque</label>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+</body>
+</html>
