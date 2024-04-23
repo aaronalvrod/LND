@@ -28,6 +28,68 @@
                 http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_gen_sibling
             */
 
+            * {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+            }
+
+            .contenedor{
+                background-color: grey;
+                border: outset 10px;
+                width: 800px;
+                height: 800px;
+                display: flexbox;
+                position: relative;
+                left: 10%
+
+            }
+
+            .caja{
+                border-color: rgb(0, 0, 0);
+                width: 200px;
+                height: 300px;
+                border: solid;
+                border-radius: 250px;
+                opacity: 80%;
+            }
+
+            .caja:nth-child(1){
+                background-color: yellow;
+                position: relative;
+                display: flex;
+                left: 30%;
+                top: 10%;
+            }
+
+            .caja:nth-child(2){
+                background-color: red;
+                position: relative;
+                display: flex;
+                left: 35%;
+                bottom: 15%;
+            }
+
+            .caja:nth-child(3){
+                background-color:green;
+                position: relative;
+                display: flex;
+                left: 40%;
+                bottom: 40%;
+            }
+
+            .caja:nth-child(4){
+                background-color: aqua;
+                position: relative;
+                display: flex;
+                left: 45%;
+                bottom: 65%;
+            }
+
+            .caja:hover{
+                opacity: 90%;
+            }
+
+            
 
         </style>
     </head>
