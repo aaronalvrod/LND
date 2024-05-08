@@ -5,18 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-        .buttom {
-            width: 25px;
-            transition: width 0.5s;
-            z-index: 2;
-        }
-
-        .buttom:hover {
-            width: 35px;
-            z-index: 2;
-        }
-
         .caja {
             border: groove 0px;
             width: 400px;
@@ -31,6 +19,7 @@
         }
 
         .imagen_prueba img {
+            display: block;
             position: relative;
             width: 400px;
             height: 230px;
@@ -45,12 +34,73 @@
             display: block;
             z-index: 2;
             right: 350px;
-            top: 240px;
+            top: 250px;
             font-size: 25px;
         }
 
-        .estrellas {
+        .redes svg {
+            display: block;
+            position: relative;
+            width: 25px;
+            right: 110px;
+            top: 170px;
+            z-index: 2;
+            transition: width 0.5s;
+        }
 
+        .redes svg:hover{
+            display: block;
+            width: 35px;
+            z-index: 2;
+        }
+
+        .caja2 {
+            border: groove 0px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 0 6px 20px 0 rgb(118, 118, 118);
+            display: flex;
+            left: 550px;
+            bottom: 400px;
+            position: relative;
+            border-radius: 30px;
+            z-index: 0;
+        }
+
+        .imagen2 img {
+            display: block;
+            position: relative;
+            width: 400px;
+            height: 230px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom: inset rgb(128, 128, 128);
+            z-index: 2;
+        }
+
+        .nombre2 {
+            position: relative;
+            display: block;
+            z-index: 2;
+            right: 350px;
+            top: 250px;
+            font-size: 25px;
+        }
+
+        .redes2 svg {
+            display: block;
+            position: relative;
+            width: 25px;
+            right: 120px;
+            top: 170px;
+            z-index: 2;
+            transition: width 0.5s;
+        }
+
+        .redes2 svg:hover {
+            display: block;
+            width: 35px;
+            z-index: 2;
         }
 
     </style>
@@ -58,9 +108,17 @@
 <body>
     <div class="caja">
         <div class="imagen_prueba"><img src="prueba.jpeg"></div>
-        <div class="nombre">Titulo</div>
-        <div class="buttom" ><a href="https://www.w3schools.com/css/css3_transitions.asp"><svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 190.5 190.5"><path fill="#fff" d="M95.252 142.873c26.304 0 47.627-21.324 47.627-47.628s-21.323-47.628-47.627-47.628-47.627 21.324-47.627 47.628 21.323 47.628 47.627 47.628z"/><path fill="#229342" d="m54.005 119.07-41.24-71.43a95.227 95.227 0 0 0-.003 95.25 95.234 95.234 0 0 0 82.496 47.61l41.24-71.43v-.011a47.613 47.613 0 0 1-17.428 17.443 47.62 47.62 0 0 1-47.632.007 47.62 47.62 0 0 1-17.433-17.437z"/><path fill="#fbc116" d="m136.495 119.067-41.239 71.43a95.229 95.229 0 0 0 82.489-47.622A95.24 95.24 0 0 0 190.5 95.248a95.237 95.237 0 0 0-12.772-47.623H95.249l-.01.007a47.62 47.62 0 0 1 23.819 6.372 47.618 47.618 0 0 1 17.439 17.431 47.62 47.62 0 0 1-.001 47.633z"/><path fill="#1a73e8" d="M95.252 132.961c20.824 0 37.705-16.881 37.705-37.706S116.076 57.55 95.252 57.55 57.547 74.431 57.547 95.255s16.881 37.706 37.705 37.706z"/><path fill="#e33b2e" d="M95.252 47.628h82.479A95.237 95.237 0 0 0 142.87 12.76 95.23 95.23 0 0 0 95.245 0a95.222 95.222 0 0 0-47.623 12.767 95.23 95.23 0 0 0-34.856 34.872l41.24 71.43.011.006a47.62 47.62 0 0 1-.015-47.633 47.61 47.61 0 0 1 41.252-23.815z"/></a></svg></div>
+        <div class="nombre">Titulo</div>    
         <div class="estrellas"></div>
+        <div class="redes"><a href="https://svgl.app/directory/design"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 32 33"><path fill="#111827" fill-opacity="0.2" d="M0 18.83L.08 6.832C.094 4.66 1.613 2.798 3.71 2.383L15.297.086c2.784-.552 5.368 1.627 5.35 4.51l-.08 12c-.015 2.171-1.534 4.032-3.631 4.448L5.349 23.341C2.565 23.893-.019 21.714 0 18.83z"/><path fill="#111827" fill-opacity="0.5" d="M5.677 23.617l.08-12C5.77 9.447 7.29 7.586 9.387 7.17l11.587-2.296c2.784-.552 5.368 1.626 5.349 4.51l-.08 12c-.014 2.171-1.533 4.032-3.63 4.448l-11.587 2.297c-2.784.551-5.368-1.627-5.349-4.51z"/><path fill="#111827" fill-opacity="0.8" d="M11.354 28.404l.08-12c.014-2.172 1.533-4.032 3.63-4.448l11.587-2.297c2.784-.552 5.368 1.627 5.349 4.51l-.08 12c-.014 2.172-1.533 4.033-3.63 4.448l-11.587 2.297c-2.784.552-5.368-1.627-5.35-4.51z"/></svg></a></div>
     </div>
+    <div class="caja2">
+        <div class="imagen2"><img src="prueba.jpeg"></div>
+        <div class="nombre2">Titulo2</div>
+        <div class="estrellas2"></div>
+        <div class="redes2"><a href="https://svgl.app/directory/design"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 32 33"><path fill="#111827" fill-opacity="0.2" d="M0 18.83L.08 6.832C.094 4.66 1.613 2.798 3.71 2.383L15.297.086c2.784-.552 5.368 1.627 5.35 4.51l-.08 12c-.015 2.171-1.534 4.032-3.631 4.448L5.349 23.341C2.565 23.893-.019 21.714 0 18.83z"/><path fill="#111827" fill-opacity="0.5" d="M5.677 23.617l.08-12C5.77 9.447 7.29 7.586 9.387 7.17l11.587-2.296c2.784-.552 5.368 1.626 5.349 4.51l-.08 12c-.014 2.171-1.533 4.032-3.63 4.448l-11.587 2.297c-2.784.551-5.368-1.627-5.349-4.51z"/><path fill="#111827" fill-opacity="0.8" d="M11.354 28.404l.08-12c.014-2.172 1.533-4.032 3.63-4.448l11.587-2.297c2.784-.552 5.368 1.627 5.349 4.51l-.08 12c-.014 2.172-1.533 4.033-3.63 4.448l-11.587 2.297c-2.784.552-5.368-1.627-5.35-4.51z"/></svg></a></div>
+    </div>
+    
+
 </body>
 </html>
