@@ -28,6 +28,27 @@ header .logo {
     font-size: 50px;
 }
 
+.login {
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+    background: #4e95b8;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: #5f5f5f;
+}
+
 .init {
     display: flex;
     justify-content: center;
