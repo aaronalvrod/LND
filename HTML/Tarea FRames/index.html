@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1, initial-scale=1.0">
-    <title>Tarea Frames - Aaron Alvarez Rodriguez</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea Web Frames - Aaron Alvarez Rodriguez</title>
+    </head>
+
+    <frameset rows="20%, *, 10%">
+
+        <frame src="../Tarea FRames/menu/index.html" name="top" scrolling="no">
+        <frame src="../Tarea FRames/contenido/" name="main" scrolling="yes">
+        <frame src="../Tarea FRames/nombre/index.html" name="bottom" scrolling="no">
+
+        <noframes>
+            <body>Your browser does not support frames.</body>
+        </noframes>
+
+    </frameset>
+
 </html>
